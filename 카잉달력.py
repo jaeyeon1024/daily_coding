@@ -1,25 +1,3 @@
-'''
-
-3 4
-
-1 1 1   1 1
-2 2 2   2 2
-3 3 3   0 3
-1 4 4   1 0
-2 1 5   2 1
-3 2 6   0 2
-1 3 7 
-2 4 8
-3 1 9
-
-
-
-
-n, m, i mod n, i mod m 이 주어질 때 i를 구하는 알고리즘
-
-'''
-
-
 import sys
 import math
 input = sys.stdin.readline
