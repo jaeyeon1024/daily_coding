@@ -9,7 +9,6 @@ board = [(input().strip()) for _ in range(m)]
 dicts = defaultdict(int)
 ans = []
 
-
 for i in board[::-1]:
     if dicts[i] == 0:
         ans.append(i)
