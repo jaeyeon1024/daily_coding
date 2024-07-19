@@ -37,4 +37,4 @@ for i in range(0, len(plus_list), 2):
     else:
         plus_result += plus_list[i]
 
-print(max(minus_result+plus_result, sum(plus_list)+minus_result))
+print(minus_result+plus_result)
